@@ -1,17 +1,15 @@
 //
-//  LocationView.swift
+//  SecondLocationView.swift
 //  InterfaceReproduction
 //
 //  Created by Morgan Harris-Stoertz on 2022-11-17.
 //
-
 import SwiftUI
 
-struct LocationView: View {
+struct SecondLocationView: View {
     
     //MARK: stored properties
     let date: String
-    let location: String
     let information: String
     
     var body: some View {
@@ -22,9 +20,6 @@ struct LocationView: View {
             Text(date)
                 .font(Font.system(size:15, weight: .none))
             
-            //location
-            Text(location)
-                .font(Font.system(size:18, weight: .thin))
             
             //information
             Text(information)
@@ -39,10 +34,11 @@ struct LocationView: View {
     }
 }
 
-struct LocationView_Previews: PreviewProvider {
+struct SecondLocationView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationView(date: "Hello", location: "Here", information: "Nothing")
+        SecondLocationView(date: "Hello", information: "Nothing")
     }
 }
 
    
+

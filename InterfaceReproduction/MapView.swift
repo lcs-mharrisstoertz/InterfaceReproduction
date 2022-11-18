@@ -22,16 +22,19 @@ struct MapView: View {
                 
                 MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.334722,
                                                                   longitude: -122.008889),
-                                   span: MKCoordinateSpan(latitudeDelta: 10,
-                                                          longitudeDelta: 10))
-                
+                                   span: MKCoordinateSpan(latitudeDelta: 2,
+                                                          longitudeDelta: 2))
+               
             ))
         }
         
         .padding(.horizontal)
         
+        
     }
+    
 }
+
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {

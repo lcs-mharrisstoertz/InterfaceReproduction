@@ -13,6 +13,7 @@
 		CC7A8080292675DD0060EE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7A807F292675DD0060EE5E /* Preview Assets.xcassets */; };
 		CC7A808729267BC70060EE5E /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A808629267BC70060EE5E /* LocationView.swift */; };
 		CC7A8089292682D00060EE5E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A8088292682D00060EE5E /* MapView.swift */; };
+		CC7A808D2926E7CC0060EE5E /* SecondLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A808C2926E7CC0060EE5E /* SecondLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CC7A807F292675DD0060EE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC7A808629267BC70060EE5E /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		CC7A8088292682D00060EE5E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CC7A808C2926E7CC0060EE5E /* SecondLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				CC7A8088292682D00060EE5E /* MapView.swift */,
 				CC7A807C292675DD0060EE5E /* Assets.xcassets */,
 				CC7A807E292675DD0060EE5E /* Preview Content */,
+				CC7A808C2926E7CC0060EE5E /* SecondLocationView.swift */,
 			);
 			path = InterfaceReproduction;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				CC7A807B292675D70060EE5E /* ContentView.swift in Sources */,
 				CC7A8089292682D00060EE5E /* MapView.swift in Sources */,
+				CC7A808D2926E7CC0060EE5E /* SecondLocationView.swift in Sources */,
 				CC7A808729267BC70060EE5E /* LocationView.swift in Sources */,
 				CC7A8079292675D70060EE5E /* InterfaceReproductionApp.swift in Sources */,
 			);
